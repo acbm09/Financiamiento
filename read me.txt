@@ -1,0 +1,7 @@
+- Importar la base de datos
+- Importar librerias
+	- mysql-connector-java-5.1.23-bin en WS
+	- javax.faces.jar en el aplicativo 
+	- PrimerFaces5.0 en el aplicativo
+- Correr el WS (Financiamiento_WS)
+- Correr el aplicativo consumidor (Financiamiento_servlet)

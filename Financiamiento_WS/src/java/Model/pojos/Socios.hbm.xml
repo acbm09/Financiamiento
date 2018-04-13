@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 11/04/2018 12:39:20 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Model.pojos.Socios" table="socios" catalog="db_financiamiento" optimistic-lock="version">
+        <id name="cod" type="java.lang.Integer">
+            <column name="cod" />
+            <generator class="identity" />
+        </id>
+        <property name="socio" type="string">
+            <column name="socio" length="7" not-null="true" />
+        </property>
+        <property name="tasa" type="float">
+            <column name="tasa" precision="12" scale="0" not-null="true" />
+        </property>
+        <property name="montom" type="int">
+            <column name="montom" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

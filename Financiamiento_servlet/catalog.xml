@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/Financiamiento_WS/Sociosws?wsdl" uri="src/conf/xml-resources/web-service-references/Sociosws/wsdl/localhost_8080/Financiamiento_WS/Sociosws.wsdl"/>
+    <system systemId="http://localhost:8080/Financiamiento_WS/Sociosws?xsd=1" uri="src/conf/xml-resources/web-service-references/Sociosws/wsdl/localhost_8080/Financiamiento_WS/Sociosws.xsd_1.xsd"/>
+</catalog>
